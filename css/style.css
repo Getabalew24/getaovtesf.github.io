@@ -283,15 +283,15 @@ a.nav_logo:hover {
 
 
 .home_img{
-    width: 70%;
-    height: 70%;
+    display: flex;
+    justify-content: center;
     border-radius: 50%;
-    position: relative;
     align-self: center;
     justify-content: center;
-    margin-left: auto;
 }
-
+.home_img img {
+    max-width: 15em;
+}
 
 .about_img{
     width: 80%;
@@ -641,16 +641,19 @@ a.nav_logo:hover {
 }
 @media screen and (min-width:768px) {
 
-   .home_img{
+    .hero-container {
         display: flex;
-        width: 60%;
-        height: 60%;
-        border-radius: 50%;
-        position: relative;
-        margin: auto;
-
+        flex-direction: row;
+        justify-content: space-around;
     }
-    
+    .home_img {
+        width: unset;
+        display: flex;
+        justify-content: ;
+    }
+    .home_img img {
+        max-width: 20em;
+    }
 
     .container{
         margin-left: auto;
