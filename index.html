@@ -47,13 +47,13 @@
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav_close" id="nav-close"></i>
+          <i class="uil uil-times nav_close" id="nav-close">X</i>
         </div>
         <div class="nav_btns">
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <i class="uil uil-moon change-theme" id="theme-button">()</i>
               
           <div class="nav_toggle" id="nav-toggle">
-              <i class="uil uil-apps"></i>
+              <i class="uil uil-apps">O</i>
             </div>
         </div>
       </nav>
@@ -248,7 +248,7 @@
              <h3 class="services_title">Web <br> Developer</h3>
            </div>
            <div class="services__text">
-             <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, laboriosam?</p>
+             <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, sint.</p>
            </div>
       </div>
 
@@ -302,30 +302,30 @@
       </div>
     </div>
   </div>
-    <form action="" class="contact_form grid">
+  <form action="https://send.pageclip.co/9P9CXCQmos5lFBqnwq7w6tGBWEjgJNFs" class="contact_form grid" method="post">
       <div class="contact_inputs grid">
             <div class="contact_content">
               <label for="" class="contact_label">Name</label>
-              <input type="text" class="contact_input">
+              <input type="text" name="name" class="contact_input">
             </div>
             <div class="contact_content">
               <label for="" class="contact_label">Email</label>
-              <input type="email" class="contact_input">
+              <input type="email" name="email" class="contact_input">
             </div>
             <div class="contact_content">
               <label for="" class="contact_label">Project</label>
-              <input type="text" class="contact_input">
+              <input type="text" name="project" class="contact_input">
             </div>
             <div class="contact_content">
               <label for="" class="contact_label">Message</label>
-              <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+              <textarea name="" id="" name="message" cols="0" rows="7" class="contact_input"></textarea>
             </div>
           </div>
 
       <div>
-        <a href="#" class="button button-flex">
+        <button type="submit" class="button button-flex">
         Send Message<i class="uil uil-message button_icon"></i>
-        </a>
+        </button>
       </div>
     </form>
 
@@ -356,4 +356,6 @@
 </footer>
 
   <script src="js/main.js"></script>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
+</html>

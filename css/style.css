@@ -17,7 +17,7 @@
 } 
 
 body.dark-theme{
-   
+    
     --first-color-second:hsl(var(--hue-color),30%,8%) ;
     --title-color: hsl(var(--hue-color),8%,95%);
     --text-color: hsl(var(--hue-color),8%,75%); 
@@ -25,6 +25,8 @@ body.dark-theme{
     --body-color: hsl(var(--hue-color),28%,12%);
     --container-color:hsl(var(--hue-color),29%,16%);
 }
+
+
 
 .nav_btns{
     display: flex;
