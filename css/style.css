@@ -690,6 +690,10 @@ a.nav_logo:hover {
     .nav_toggle{
         display: none;
     }
+    .nav_logo{
+        font-size: 30px;
+        padding-top: 2em;
+    }
     .nav_list{
         display: flex;
         column-gap: 2.5rem;
@@ -701,6 +705,7 @@ a.nav_logo:hover {
 
     .change-theme{
         margin: 0;
+        padding-top: 0;
     }
     
     .about_container{
