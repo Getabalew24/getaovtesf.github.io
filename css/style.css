@@ -229,13 +229,13 @@ a.nav_logo:hover {
 .text_container p:nth-child(2){
     font-weight: bold;
     font-family: calibri;
-    color: rgb(26, 26, 26);
+    color: var(--title-color);
     font-size: 30px;
 }
 .text_container p:nth-child(3){
     font-weight: bold;
     font-family: calibri;
-    color: rgb(26, 26, 26);
+    color: var(--title-color);
     font-size: 30px;
 }
 
@@ -465,7 +465,7 @@ a.nav_logo:hover {
 .services__text{
     font-weight: 400;
     font-family: calibri;
-    color: rgb(26, 26, 26);
+    color: rgb(109, 109, 109);
     font-size: 17px;
 }
 
@@ -598,7 +598,9 @@ a.nav_logo:hover {
 
 
 @media screen and (max-width: 350px) {
-
+    .home_img img {
+        max-width: 10em;
+    }
     .container{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -642,6 +644,7 @@ a.nav_logo:hover {
 @media screen and (min-width:768px) {
 
     .hero-container {
+        padding-top: 2em;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
